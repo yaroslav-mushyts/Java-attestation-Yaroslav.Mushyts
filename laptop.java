@@ -32,21 +32,7 @@ public class laptop {
     public String getColor() {
         return color;
     }
-    public void setRam(int ram) {
-        this.ram = ram;
-    }
-    public void setSsd(int ssd) {
-        this.ssd = ssd;
-    }
-    public void setOpSystem(String opSystem) {
-        OpSystem = opSystem;
-    }
-    public void setModel(String model) {
-        this.model = model;
-    }
-    public void setColor(String color) {
-        this.color = color;
-    }
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
