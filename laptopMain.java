@@ -65,9 +65,9 @@ public class laptopMain {
                      filtr = false;
                     }else if (z2 == " +" && laptop2.getSsd() < ssd) {
                      filtr = false;
-                    }else if (z3 == " +" && laptop2.getOpSystem().equals(op)) {
+                    }else if (z3 == " +" && laptop2.getOpSystem() != op) {
                      filtr = false;
-                    }else if (z4 == " +" && laptop2.getColor().equals(color)) {
+                    }else if (z4 == " +" && laptop2.getColor() != color) {
                      filtr = false;
                     }
                     else if (filtr){
